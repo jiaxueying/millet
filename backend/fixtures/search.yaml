@@ -1,0 +1,56 @@
+- model: searchitem.SearchItem
+  pk: 1
+  fields:
+    name: '肉'
+    count: 1
+    category: 'keyword'
+
+- model: searchitem.SearchItem
+  pk: 2
+  fields:
+    name: '青椒'
+    count: 3
+    category: 'keyword'
+
+
+- model: searchitem.SearchItem
+  pk: 3
+  fields:
+    name: '食堂二楼'
+    count: 1
+    category: 'tag'
+
+- model: searchitem.HistorySearch
+  pk: 1
+  fields:
+    user: 1
+    searchitem: 1
+    datetime: '2019-10-01 01:00:00+08:00'
+
+- model: searchitem.HistorySearch
+  pk: 2
+  fields:
+    user: 1
+    searchitem: 2
+    datetime: '2019-10-01 02:00:00+08:00'
+
+- model: searchitem.HistorySearch
+  pk: 3
+  fields:
+    user: 1
+    searchitem: 2
+    datetime: '2019-10-01 03:00:00+08:00'
+
+- model: searchitem.HistorySearch
+  pk: 4
+  fields:
+    user: 2
+    searchitem: 2
+    datetime: '2019-10-01 09:00:00+08:00'
+
+- model: searchitem.HistorySearch
+  pk: 5
+  fields:
+    user: 2
+    searchitem: 3
+    datetime: '2019-10-01 10:00:00+08:00'
